@@ -47,3 +47,7 @@
 ## [1.6.0] - 18 April 2024
 
 * Switch to Stockfish 16 for smaller app size
+
+## [1.6.1] - 27 July 2024
+
+* Update android `compileSdkVersion` to 31
