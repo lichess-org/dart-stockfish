@@ -4,7 +4,7 @@ file(GLOB_RECURSE cppPaths "../ios/Stockfish/src/*.cpp")
 add_library(
   stockfish
   SHARED
-  ../ios/FlutterStockfish/ffi.cpp
+  ../ios/Classes/stockfish.cpp
   ${cppPaths}
 )
 

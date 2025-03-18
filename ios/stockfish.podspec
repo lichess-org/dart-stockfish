@@ -15,8 +15,7 @@ Pod::Spec.new do |s|
   s.license          = { :file => '../LICENSE', :type => 'MIT' }
   s.author           = 'Arjan Aswal'
   s.source = { :git => pubspec['repository'], :tag => s.version.to_s }
-  s.source_files = 'Classes/**/*', 'FlutterStockfish/*', 'Stockfish/src/**/*'
-  s.public_header_files = 'Classes/**/*.h'
+  s.source_files = 'Classes/**/*', 'Stockfish/src/**/*'
   s.exclude_files = 'Stockfish/src/incbin/UNLICENCE'
   s.dependency 'Flutter'
   s.platform = :ios, '12.0'

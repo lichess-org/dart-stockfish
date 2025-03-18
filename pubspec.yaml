@@ -22,7 +22,6 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.stockfish
-        pluginClass: StockfishPlugin
+        ffiPlugin: true
       ios:
-        pluginClass: StockfishPlugin
+        ffiPlugin: true
